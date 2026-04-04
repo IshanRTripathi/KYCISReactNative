@@ -1,0 +1,26 @@
+---
+description: React Native specific rules for KYCIS React Native app development
+alwaysApply: true
+---
+
+# React Native Non-Negotiables
+
+- Use Expo with TypeScript for faster development
+- Use React Navigation for screen navigation (native-stack)
+- Follow the same UI/UX as the KYCISDemo Android app
+- Use functional components with hooks
+- Keep responses concise
+- Test builds after code changes
+
+# Tech Stack
+
+- Expo SDK 53 (latest stable)
+- React Navigation 7.x
+- TypeScript
+- React Native vector icons (@expo/vector-icons)
+
+# Code Style
+
+- Use StyleSheet for styling
+- Use React Native's built-in components
+- Match Android Compose colors exactly

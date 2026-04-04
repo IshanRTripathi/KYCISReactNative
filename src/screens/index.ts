@@ -1,0 +1,12 @@
+export { HomeScreen } from './HomeScreen';
+export { PhoneEntryScreen } from './PhoneEntryScreen';
+export { PhoneOtpScreen } from './PhoneOtpScreen';
+export { EmailEntryScreen } from './EmailEntryScreen';
+export { EmailOtpScreen } from './EmailOtpScreen';
+export { PanDetailsScreen } from './PanDetailsScreen';
+export { PersonalDetailsScreen } from './PersonalDetailsScreen';
+export { VerifyDocumentsScreen } from './VerifyDocumentsScreen';
+export { DigilockerAadhaarScreen } from './DigilockerAadhaarScreen';
+export { UploadAadhaarScreen } from './UploadAadhaarScreen';
+export { SelfieCaptureScreen } from './SelfieCaptureScreen';
+export { SignatureScreen } from './SignatureScreen';
