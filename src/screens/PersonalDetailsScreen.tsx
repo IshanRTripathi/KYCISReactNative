@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -15,6 +15,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 import personalDetailsImage from '../assets/personaldetails2.png';
 
 const GENDER_OPTIONS = ['Male', 'Female', 'Other', 'Prefer not to say'];
@@ -46,6 +47,79 @@ export const PersonalDetailsScreen: React.FC<PersonalDetailsScreenProps> = ({
     maritalStatus.length > 0 &&
     residencyStatus.length > 0 &&
     fatherName.length > 0;
+
+  useEffect(() => {
+    if (name.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'name',
+        hint: name.slice(0, 3) + '***',
+        screen: 'PERSONAL_DETAILS',
+        componentType: 'text_input',
+      });
+    }
+  }, [name]);
+
+  useEffect(() => {
+    if (gender.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'gender',
+        hint: gender,
+        screen: 'PERSONAL_DETAILS',
+        componentType: 'dropdown',
+      });
+    }
+  }, [gender]);
+
+  useEffect(() => {
+    if (maritalStatus.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'marital_status',
+        hint: maritalStatus,
+        screen: 'PERSONAL_DETAILS',
+        componentType: 'dropdown',
+      });
+    }
+  }, [maritalStatus]);
+
+  useEffect(() => {
+    if (residencyStatus.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'residency_status',
+        hint: residencyStatus,
+        screen: 'PERSONAL_DETAILS',
+        componentType: 'dropdown',
+      });
+    }
+  }, [residencyStatus]);
+
+  useEffect(() => {
+    if (fatherName.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'father_name',
+        hint: fatherName.slice(0, 3) + '***',
+        screen: 'PERSONAL_DETAILS',
+        componentType: 'text_input',
+      });
+    }
+  }, [fatherName]);
+
+  const handleProceed = () => {
+    if (!isFormValid) {
+      const missingFields: string[] = [];
+      if (!name.length) missingFields.push('name');
+      if (!gender.length) missingFields.push('gender');
+      if (!maritalStatus.length) missingFields.push('marital_status');
+      if (!residencyStatus.length) missingFields.push('residency_status');
+      if (!fatherName.length) missingFields.push('father_name');
+
+      Kycis.trackValidationFailure({
+        failureReasonCode: 'incomplete_personal_details',
+        businessStep: 'PERSONAL_DETAILS',
+        hint: missingFields.join(', '),
+      });
+    }
+    onProceed();
+  };
 
   const DropdownField = ({
     label,

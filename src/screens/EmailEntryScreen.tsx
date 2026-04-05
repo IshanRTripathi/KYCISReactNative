@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 import emailImage from '../assets/emailinput2.png';
 
 interface EmailEntryScreenProps {
@@ -27,6 +28,17 @@ export const EmailEntryScreen: React.FC<EmailEntryScreenProps> = ({
   const [email, setEmail] = useState('');
   const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$/;
   const isEmailValid = emailRegex.test(email);
+
+  useEffect(() => {
+    if (email.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'email',
+        hint: email.includes('@') ? email.split('@')[0].slice(0, 3) + '***@' + email.split('@')[1] : email,
+        screen: 'EMAIL_ENTRY',
+        componentType: 'text_input',
+      });
+    }
+  }, [email]);
 
   return (
     <View style={styles.container}>

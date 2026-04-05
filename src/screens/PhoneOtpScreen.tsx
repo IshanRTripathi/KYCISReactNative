@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 import { OtpInputField } from '../components/OtpInputField';
 
 interface PhoneOtpScreenProps {
@@ -28,6 +29,23 @@ export const PhoneOtpScreen: React.FC<PhoneOtpScreenProps> = ({
   const [otpValue, setOtpValue] = useState('');
   const otpLength = 4;
   const isOtpValid = otpValue.length === otpLength;
+
+  useEffect(() => {
+    if (otpValue.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'phone_otp',
+        hint: otpValue.length > 1 ? otpValue[0] + '*'.repeat(otpValue.length - 1) : otpValue,
+        screen: 'PHONE_OTP',
+        componentType: 'otp_input',
+      });
+    }
+  }, [otpValue]);
+
+  const handleVerify = () => {
+    Kycis.setUser(phoneNumber, phoneNumber);
+    Kycis.trackAnalytics('phone_verified', { phone: phoneNumber });
+    onVerify(otpValue);
+  };
 
   return (
     <View style={styles.container}>
@@ -70,7 +88,7 @@ export const PhoneOtpScreen: React.FC<PhoneOtpScreenProps> = ({
         <View style={styles.footer}>
           <TouchableOpacity
             style={[styles.button, !isOtpValid && styles.buttonDisabled]}
-            onPress={() => onVerify(otpValue)}
+            onPress={() => handleVerify()}
             disabled={!isOtpValid}
           >
             <Text style={styles.buttonText}>Verify</Text>

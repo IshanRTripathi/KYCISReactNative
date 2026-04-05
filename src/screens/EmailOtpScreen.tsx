@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 import { OtpInputField } from '../components/OtpInputField';
 
 interface EmailOtpScreenProps {
@@ -31,6 +32,27 @@ export const EmailOtpScreen: React.FC<EmailOtpScreenProps> = ({
   const otpLength = 4;
   const isOtpValid = otpValue.length === otpLength;
 
+  useEffect(() => {
+    if (otpValue.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'email_otp',
+        hint: otpValue.length > 1 ? otpValue[0] + '*'.repeat(otpValue.length - 1) : otpValue,
+        screen: 'EMAIL_OTP',
+        componentType: 'otp_input',
+      });
+    }
+  }, [otpValue]);
+
+  const handleVerify = () => {
+    Kycis.trackAnalytics('email_verified', { email });
+    onVerify(otpValue);
+  };
+
+  const handleSkip = () => {
+    Kycis.trackAnalytics('email_skipped');
+    onSkip();
+  };
+
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor={ThemeColors.lightBackground} />
@@ -42,7 +64,7 @@ export const EmailOtpScreen: React.FC<EmailOtpScreenProps> = ({
           <TouchableOpacity onPress={onBack} style={styles.backButton}>
             <Ionicons name="arrow-back" size={24} color={ThemeColors.gray900} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={onSkip}>
+          <TouchableOpacity onPress={handleSkip}>
             <Text style={styles.skipText}>Skip</Text>
           </TouchableOpacity>
         </View>
@@ -72,7 +94,7 @@ export const EmailOtpScreen: React.FC<EmailOtpScreenProps> = ({
         <View style={styles.footer}>
           <TouchableOpacity
             style={[styles.button, !isOtpValid && styles.buttonDisabled]}
-            onPress={() => onVerify(otpValue)}
+            onPress={() => handleVerify()}
             disabled={!isOtpValid}
           >
             <Text style={styles.buttonText}>Verify</Text>

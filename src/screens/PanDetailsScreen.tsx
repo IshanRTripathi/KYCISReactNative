@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 
 interface PanDetailsScreenProps {
   onBack: () => void;
@@ -31,6 +32,66 @@ export const PanDetailsScreen: React.FC<PanDetailsScreenProps> = ({
   const isPanValid = panRegex.test(panNumber);
   const isDobValid = dob.length > 0;
   const canProceed = isPanValid && isDobValid && agreedToTerms;
+
+  useEffect(() => {
+    if (panNumber.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'pan_number',
+        hint: panNumber.length > 4 ? panNumber.slice(0, 4) + '****' : panNumber,
+        screen: 'PAN_DETAILS',
+        componentType: 'text_input',
+      });
+    }
+  }, [panNumber]);
+
+  useEffect(() => {
+    if (dob.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'dob',
+        hint: 'redacted',
+        screen: 'PAN_DETAILS',
+        componentType: 'text_input',
+      });
+    }
+  }, [dob]);
+
+  useEffect(() => {
+    Kycis.reportComponentInput({
+      componentId: 'terms_accepted',
+      hint: agreedToTerms ? 'true' : 'false',
+      screen: 'PAN_DETAILS',
+      componentType: 'switch',
+    });
+  }, [agreedToTerms]);
+
+  const handleNext = () => {
+    if (!isPanValid) {
+      Kycis.trackValidationFailure({
+        failureReasonCode: 'invalid_pan_format',
+        componentId: 'pan_number',
+        componentType: 'text_input',
+        expectedPattern: '[A-Z]{5}[0-9]{4}[A-Z]',
+        businessStep: 'PAN_ENTRY',
+      });
+    }
+    if (!isDobValid) {
+      Kycis.trackValidationFailure({
+        failureReasonCode: 'empty_dob',
+        componentId: 'dob',
+        componentType: 'text_input',
+        businessStep: 'PAN_ENTRY',
+      });
+    }
+    if (!agreedToTerms) {
+      Kycis.trackValidationFailure({
+        failureReasonCode: 'terms_not_accepted',
+        componentId: 'terms',
+        componentType: 'switch',
+        businessStep: 'PAN_ENTRY',
+      });
+    }
+    onNext();
+  };
 
   return (
     <View style={styles.container}>
@@ -102,7 +163,7 @@ export const PanDetailsScreen: React.FC<PanDetailsScreenProps> = ({
 
           <TouchableOpacity
             style={[styles.button, !canProceed && styles.buttonDisabled]}
-            onPress={onNext}
+            onPress={handleNext}
             disabled={!canProceed}
           >
             <Text style={styles.buttonText}>Next</Text>

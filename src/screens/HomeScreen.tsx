@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 
 interface HomeScreenProps {
   onStartFlow: () => void;
@@ -15,6 +16,11 @@ interface HomeScreenProps {
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({ onStartFlow }) => {
   const [selectedFlow, setSelectedFlow] = useState('kyc');
+
+  const handleStart = () => {
+    Kycis.trackAnalytics('flow_started', { flow: selectedFlow });
+    onStartFlow();
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -84,7 +90,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStartFlow }) => {
           </TouchableOpacity>
         </View>
 
-        <TouchableOpacity style={styles.startButton} onPress={onStartFlow}>
+        <TouchableOpacity style={styles.startButton} onPress={handleStart}>
           <Text style={styles.startButtonText}>Start</Text>
         </TouchableOpacity>
       </View>

@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 import aadhaarImage from '../assets/aadhaarinput2.png';
 
 interface VerifyDocumentsScreenProps {
@@ -22,6 +23,15 @@ export const VerifyDocumentsScreen: React.FC<VerifyDocumentsScreenProps> = ({
   onProceedWithAadhaar,
   onOfflineProcess,
 }) => {
+  const handleProceedWithAadhaar = () => {
+    Kycis.trackAnalytics('aadhaar_verification_selected', { method: 'digilocker' });
+    onProceedWithAadhaar();
+  };
+
+  const handleOfflineProcess = () => {
+    Kycis.trackAnalytics('aadhaar_verification_selected', { method: 'offline_upload' });
+    onOfflineProcess();
+  };
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor={ThemeColors.lightBackground} />
@@ -50,14 +60,14 @@ export const VerifyDocumentsScreen: React.FC<VerifyDocumentsScreenProps> = ({
       <View style={styles.footer}>
         <TouchableOpacity
           style={styles.button}
-          onPress={onProceedWithAadhaar}
+          onPress={handleProceedWithAadhaar}
         >
           <Text style={styles.buttonText}>Proceed with Aadhaar</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.outlinedButton}
-          onPress={onOfflineProcess}
+          onPress={handleOfflineProcess}
         >
           <Text style={styles.outlinedButtonText}>Offline Process</Text>
         </TouchableOpacity>

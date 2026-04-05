@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 import phoneImage from '../assets/phoneinput2.png';
 
 interface PhoneEntryScreenProps {
@@ -26,6 +27,17 @@ export const PhoneEntryScreen: React.FC<PhoneEntryScreenProps> = ({
 }) => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const isPhoneValid = phoneNumber.length === 10 && /^\d+$/.test(phoneNumber);
+
+  useEffect(() => {
+    if (phoneNumber.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'phone_number',
+        hint: phoneNumber.length > 4 ? phoneNumber.slice(0, 4) + '****' : phoneNumber,
+        screen: 'PHONE_ENTRY',
+        componentType: 'text_input',
+      });
+    }
+  }, [phoneNumber]);
 
   return (
     <View style={styles.container}>

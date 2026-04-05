@@ -1,0 +1,716 @@
+2026-04-05 17:16:32.128 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Track subscribed: audio
+2026-04-05 17:16:32.128 24250-24250 VoiceDebug              com.kycis.reactnative                D  [connector] Track subscribed: audio
+2026-04-05 17:16:32.161   709-1809  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:16:32.164   709-1937  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:16:32.174   709-1809  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:16:32.176   709-1809  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:16:32.926 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste!
+2026-04-05 17:16:32.926 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! {role=agent}
+2026-04-05 17:16:32.928 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:33.476 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main
+2026-04-05 17:16:33.476 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main {role=agent}
+2026-04-05 17:16:33.476 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:33.844 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki
+2026-04-05 17:16:33.844 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki {role=agent}
+2026-04-05 17:16:33.844 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:34.230 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC
+2026-04-05 17:16:34.230 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC {role=agent}
+2026-04-05 17:16:34.230 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:34.470 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein
+2026-04-05 17:16:34.470 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein {role=agent}
+2026-04-05 17:16:34.470 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:34.740 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help
+2026-04-05 17:16:34.741 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help {role=agent}
+2026-04-05 17:16:34.741 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:34.992 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne
+2026-04-05 17:16:34.992 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne {role=agent}
+2026-04-05 17:16:34.992 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:35.271 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke
+2026-04-05 17:16:35.271 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke {role=agent}
+2026-04-05 17:16:35.271 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:35.520 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye
+2026-04-05 17:16:35.522 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye {role=agent}
+2026-04-05 17:16:35.523 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:35.983 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan
+2026-04-05 17:16:35.984 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan {role=agent}
+2026-04-05 17:16:35.984 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.715 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon.
+2026-04-05 17:16:38.717 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. {role=agent}
+2026-04-05 17:16:38.718 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.760 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka
+2026-04-05 17:16:38.762 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka {role=agent}
+2026-04-05 17:16:38.763 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.765 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data
+2026-04-05 17:16:38.765 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data {role=agent}
+2026-04-05 17:16:38.765 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.766 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI
+2026-04-05 17:16:38.766 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI {role=agent}
+2026-04-05 17:16:38.766 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.766 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines
+2026-04-05 17:16:38.766 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines {role=agent}
+2026-04-05 17:16:38.766 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.767 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke
+2026-04-05 17:16:38.767 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke {role=agent}
+2026-04-05 17:16:38.767 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.767 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according
+2026-04-05 17:16:38.768 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according {role=agent}
+2026-04-05 17:16:38.768 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.768 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100%
+2026-04-05 17:16:38.768 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% {role=agent}
+2026-04-05 17:16:38.768 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:38.845 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe
+2026-04-05 17:16:38.845 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe {role=agent}
+2026-04-05 17:16:38.845 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:39.050 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai.
+2026-04-05 17:16:39.051 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. {role=agent}
+2026-04-05 17:16:39.051 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:39.401 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine
+2026-04-05 17:16:39.401 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine {role=agent}
+2026-04-05 17:16:39.401 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:39.857 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha
+2026-04-05 17:16:39.857 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha {role=agent}
+2026-04-05 17:16:39.857 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:40.194 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki
+2026-04-05 17:16:40.195 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki {role=agent}
+2026-04-05 17:16:40.195 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:40.412 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap
+2026-04-05 17:16:40.412 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap {role=agent}
+2026-04-05 17:16:40.412 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:40.535 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone
+2026-04-05 17:16:40.535 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone {role=agent}
+2026-04-05 17:16:40.536 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:40.800 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry
+2026-04-05 17:16:40.800 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry {role=agent}
+2026-04-05 17:16:40.801 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:41.050 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen
+2026-04-05 17:16:41.051 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen {role=agent}
+2026-04-05 17:16:41.051 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:41.146 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par
+2026-04-05 17:16:41.146 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par {role=agent}
+2026-04-05 17:16:41.146 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:41.404 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain,
+2026-04-05 17:16:41.405 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, {role=agent}
+2026-04-05 17:16:41.406 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:41.607 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya
+2026-04-05 17:16:41.607 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya {role=agent}
+2026-04-05 17:16:41.607 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:41.945 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko
+2026-04-05 17:16:41.946 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko {role=agent}
+2026-04-05 17:16:41.946 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:42.291 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help
+2026-04-05 17:16:42.292 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help {role=agent}
+2026-04-05 17:16:42.293 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:42.519 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye?
+2026-04-05 17:16:42.519 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye? {role=agent}
+2026-04-05 17:16:42.519 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:42.654 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye?
+2026-04-05 17:16:42.655 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye? {role=agent}
+2026-04-05 17:16:42.655 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:16:47.173 24250-24250 InsetsController        com.kycis.reactnative                D  hide(ime(), fromIme=false)
+2026-04-05 17:16:47.177 24250-24250 ImeTracker              com.kycis.reactnative                I  com.kycis.reactnative:5a2baa4: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-04-05 17:16:49.866 24250-24250 InsetsController        com.kycis.reactnative                D  hide(ime(), fromIme=false)
+2026-04-05 17:16:49.866 24250-24250 ImeTracker              com.kycis.reactnative                I  com.kycis.reactnative:6fb1d93a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-04-05 17:16:56.280 24250-24250 InsetsController        com.kycis.reactnative                D  hide(ime(), fromIme=false)
+2026-04-05 17:16:56.283 24250-24250 ImeTracker              com.kycis.reactnative                I  com.kycis.reactnative:1c39a76a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-04-05 17:17:09.356 24250-24292 KYCIS                   com.kycis.reactnative                D  AudioFocusManager.abandonAudioFocus: hasAudioFocus=false
+2026-04-05 17:17:09.374 24250-24292 KYCIS-AgentEvent        com.kycis.reactnative                D  Event: DISCONNECTED - Session ended
+2026-04-05 17:17:09.376 24250-24292 VoiceDebug              com.kycis.reactnative                D  [agent_event] DISCONNECTED: Session ended {sessionId=7dcc0a6c-3fbd-47fd-9efa-29e5d10274fb, durationMs=45088, error=null}
+2026-04-05 17:17:09.376 24250-24292 KYCIS                   com.kycis.reactnative                D  VoiceSessionManager: Session ended, duration=45089ms
+2026-04-05 17:17:09.376 24250-24292 KYCIS                   com.kycis.reactnative                D  Voice session stopped (notifying backend)
+2026-04-05 17:17:09.376 24250-24292 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching DISCONNECTED to 1 listener(s)
+2026-04-05 17:17:09.629 24250-24328 AudioTrack              com.kycis.reactnative                D  stop(178): called with 300000 frames delivered
+2026-04-05 17:17:09.632   709-1211  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:09.634   709-1211  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:09.670 24250-24250 VoiceDebug              com.kycis.reactnative                D  [connector] Disconnected
+2026-04-05 17:17:09.685 24250-24250 VoiceDebug              com.kycis.reactnative                D  [connector] Disconnected
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  KycisModule.startAssistant: ENTRY
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  KycisModule.startAssistant: currentActivity = MainActivity
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  AI.bindActivity: activity=MainActivity
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.bindCurrentActivity: ENTRY - activity=MainActivity, started=true
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.bindCurrentActivity: uiBridge updated, now checking started flag
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.bindCurrentActivity: SDK is started, lifecycle tracking active
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  AI.startAssistantInternal: called
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  AI.startAssistantInternal: initialized check passed, calling runtime.startAssistantSession
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  AI.startAssistantInternal: calling runtime.startAssistantSession with source=manual_start_assistant
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: ENTRY - invokeSource=manual_start_assistant, started=true, voiceSessionActive=false
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: SDK is started, proceeding...
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: context is valid: userId=demo-user, sessionId=01c3344a-54f6-41b9-8e03-63a32ddc0268
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: uiBridge.getCurrentActivity() = MainActivity
+2026-04-05 17:17:10.417 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: permission check - hasPermission=true, activity=true
+2026-04-05 17:17:10.418 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: hasPermission=true, calling proceedWithBackend()
+2026-04-05 17:17:10.418 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: proceedWithBackend() called
+2026-04-05 17:17:10.418 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: calling backendClient.startAssistant...
+2026-04-05 17:17:10.418 24250-24292 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: screen debug - kycStep=PHONE_ENTRY, passiveSnapshot.currentScreen=null, effectiveScreen=PHONE_ENTRY
+2026-04-05 17:17:10.418 24250-24292 KYCIS                   com.kycis.reactnative                D  AI.startAssistantInternal: runtime.startAssistantSession returned
+2026-04-05 17:17:10.418 24250-24292 KYCIS                   com.kycis.reactnative                D  KycisModule.startAssistant: called AI.startAssistant()
+2026-04-05 17:17:10.418 24250-24311 KYCIS                   com.kycis.reactnative                D  HttpBackendClient.startAssistant: STARTING - baseUrl=http://10.0.2.2:8000/v1, userId=demo-user, sessionId=01c3344a-54f6-41b9-8e03-63a32ddc0268, screen=PHONE_ENTRY
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  HttpBackendClient.startAssistant: RESPONSE - statusCode=200, errorMessage=null
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  HttpBackendClient.startAssistant: rawBody={"session_id":"01c3344a-54f6-41b9-8e03-63a32ddc0268","livekit_room":"kyc-room-01c3344a-54f6-41b9-8e03-63a32ddc0268","livekit_url":"wss://zzyyyyyyynex-9tpbkm16.livekit.cloud","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia3ljaXMtY2xpZW50IiwidmlkZW8iOnsicm9vbUpvaW4iOnRydWUsInJvb20iOiJreWMtcm9vbS0wMWMzMzQ0YS01NGY2LTQxYjktOGUwMy02M2EzMmRkYzAyNjgiLCJjYW5QdWJsaXNoIjp0cnVlLCJjYW5TdWJzY3JpYmUiOnRydWUsImNhblB1Ymxpc2hEYXRhIjp0cnVlfSwic3ViIjoiZGVtby11c2VyIiwiaXNzIjoiQVBJYnNKNURFc0ZucHVUIiwibmJm
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  HttpBackendClient.startAssistant: response={"session_id":"01c3344a-54f6-41b9-8e03-63a32ddc0268","livekit_room":"kyc-room-01c3344a-54f6-41b9-8e03-63a32ddc0268","livekit_url":"wss:\/\/zzyyyyyyynex-9tpbkm16.livekit.cloud","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia3ljaXMtY2xpZW50IiwidmlkZW8iOnsicm9vbUpvaW4iOnRydWUsInJvb20iOiJreWMtcm9vbS0wMWMzMzQ0YS01NGY2LTQxYjktOGUwMy02M2EzMmRkYzAyNjgiLCJjYW5QdWJsaXNoIjp0cnVlLCJjYW5TdWJzY3JpYmUiOnRydWUsImNhblB1Ymxpc2hEYXRhIjp0cnVlfSwic3ViIjoiZGVtby11c2VyIiwiaXNzIjoiQVBJYnNKNURFc0ZucHVUIiwibm
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  HttpBackendClient.startAssistant: SUCCESS - token received, livekitUrl=wss://zzyyyyyyynex-9tpbkm16.livekit.cloud
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  HttpBackendClient.startAssistant: COMPLETE - result=true, failure=null
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  SdkRuntime.startAssistantSession: backendClient.startAssistant callback received - result=true, failureMessage=null
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  Voice session started successfully - token present, connecting to LiveKit...
+2026-04-05 17:17:10.457 24250-24311 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching CONNECTED to 1 listener(s)
+2026-04-05 17:17:10.460 24250-24311 KYCIS-AgentEvent        com.kycis.reactnative                D  Event: CONNECTING - Connecting to voice session
+2026-04-05 17:17:10.461 24250-24311 VoiceDebug              com.kycis.reactnative                D  [agent_event] CONNECTING: Connecting to voice session {sessionId=db29120a-a380-4e31-a619-5a728a15564d, durationMs=null, error=null}
+2026-04-05 17:17:10.461 24250-24311 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: requesting audio focus before connecting
+2026-04-05 17:17:10.461 24250-24311 KYCIS                   com.kycis.reactnative                D  AudioFocusManager.requestAudioFocus: requesting focus
+2026-04-05 17:17:10.463 24250-24291 ReactNativeJS           com.kycis.reactnative                I  '[KYCIS] Voice session started:', { livekitUrl: 'wss://zzyyyyyyynex-9tpbkm16.livekit.cloud',
+                                                                                                      room: 'kyc-room-01c3344a-54f6-41b9-8e03-63a32ddc0268' }
+2026-04-05 17:17:10.469 24250-24311 KYCIS                   com.kycis.reactnative                D  AudioFocusManager.requestAudioFocus: result=1, hasAudioFocus=true
+2026-04-05 17:17:10.469 24250-24311 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: audio focus granted, proceeding with connect
+2026-04-05 17:17:10.476 24250-24250 VoiceDebug              com.kycis.reactnative                D  [connector] Connecting to room {url=wss://zzyyyyyyynex-9tpbkm16.livekit.cloud}
+2026-04-05 17:17:10.542 24250-24292 AudioManager            com.kycis.reactnative                I  dispatching onAudioFocusChange(-1) to android.media.AudioManager@d5d9adacom.kycis.sdk.voice.AudioFocusManager$$ExternalSyntheticLambda0@f7c4cba
+2026-04-05 17:17:10.542 24250-24292 KYCIS                   com.kycis.reactnative                D  AudioFocusManager: focusChange=-1, hasAudioFocus=true
+2026-04-05 17:17:10.542 24250-24292 KYCIS                   com.kycis.reactnative                W  VoiceRoomConnector: audio focus lost, room state will be preserved
+2026-04-05 17:17:10.542 24250-24292 VoiceDebug              com.kycis.reactnative                D  [connector] Audio focus lost
+2026-04-05 17:17:10.659   709-1211  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:10.661   709-1211  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:10.712 24250-24250 VoiceDebug              com.kycis.reactnative                D  [connector] Connected to room {room=kyc-room-01c3344a-54f6-41b9-8e03-63a32ddc0268}
+2026-04-05 17:17:11.036   709-1813  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:11.038   709-1813  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:11.048   709-1937  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:11.049   709-1937  AppOps                  system_server                        E  attributionTag  not declared in manifest of com.kycis.reactnative
+2026-04-05 17:17:11.113 24250-24250 VoiceDebug              com.kycis.reactnative                D  [connector] Mic enabled (setMicrophoneEnabled=true)
+2026-04-05 17:17:11.113 24250-24250 KYCIS-AgentEvent        com.kycis.reactnative                D  Event: CONNECTED - Connected to voice session
+2026-04-05 17:17:11.113 24250-24250 VoiceDebug              com.kycis.reactnative                D  [agent_event] CONNECTED: Connected to voice session {sessionId=db29120a-a380-4e31-a619-5a728a15564d, durationMs=null, error=null}
+2026-04-05 17:17:11.113 24250-24250 KYCIS                   com.kycis.reactnative                D  KycisModule: VoiceSessionManager connected to LiveKit room
+2026-04-05 17:17:14.473 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Track subscribed: audio
+2026-04-05 17:17:14.473 24250-24250 VoiceDebug              com.kycis.reactnative                D  [connector] Track subscribed: audio
+2026-04-05 17:17:15.011 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste!
+2026-04-05 17:17:15.012 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! {role=agent}
+2026-04-05 17:17:15.012 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:15.525 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main
+2026-04-05 17:17:15.526 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main {role=agent}
+2026-04-05 17:17:15.526 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:15.916 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki
+2026-04-05 17:17:15.917 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki {role=agent}
+2026-04-05 17:17:15.917 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:16.310 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC
+2026-04-05 17:17:16.310 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC {role=agent}
+2026-04-05 17:17:16.311 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:16.542 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein
+2026-04-05 17:17:16.542 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein {role=agent}
+2026-04-05 17:17:16.542 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:16.823 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help
+2026-04-05 17:17:16.823 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help {role=agent}
+2026-04-05 17:17:16.824 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:17.081 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne
+2026-04-05 17:17:17.081 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne {role=agent}
+2026-04-05 17:17:17.082 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:17.222 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke
+2026-04-05 17:17:17.223 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke {role=agent}
+2026-04-05 17:17:17.223 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:17.332 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye
+2026-04-05 17:17:17.332 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye {role=agent}
+2026-04-05 17:17:17.333 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:17.639 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan
+2026-04-05 17:17:17.639 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan {role=agent}
+2026-04-05 17:17:17.640 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:17.928 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon.
+2026-04-05 17:17:17.930 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. {role=agent}
+2026-04-05 17:17:17.930 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:18.120 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka
+2026-04-05 17:17:18.120 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka {role=agent}
+2026-04-05 17:17:18.120 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:18.458 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data
+2026-04-05 17:17:18.458 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data {role=agent}
+2026-04-05 17:17:18.460 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.882 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI
+2026-04-05 17:17:20.886 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI {role=agent}
+2026-04-05 17:17:20.887 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.908 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines
+2026-04-05 17:17:20.911 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines {role=agent}
+2026-04-05 17:17:20.912 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.912 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke
+2026-04-05 17:17:20.912 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke {role=agent}
+2026-04-05 17:17:20.913 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.916 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according
+2026-04-05 17:17:20.919 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according {role=agent}
+2026-04-05 17:17:20.920 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.928 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100%
+2026-04-05 17:17:20.929 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% {role=agent}
+2026-04-05 17:17:20.932 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.945 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe
+2026-04-05 17:17:20.948 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe {role=agent}
+2026-04-05 17:17:20.953 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.958 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai.
+2026-04-05 17:17:20.958 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. {role=agent}
+2026-04-05 17:17:20.958 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:20.989 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine
+2026-04-05 17:17:20.990 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine {role=agent}
+2026-04-05 17:17:20.991 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:21.186 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha
+2026-04-05 17:17:21.186 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha {role=agent}
+2026-04-05 17:17:21.186 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:21.398 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki
+2026-04-05 17:17:21.399 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki {role=agent}
+2026-04-05 17:17:21.399 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:21.592 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap
+2026-04-05 17:17:21.593 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap {role=agent}
+2026-04-05 17:17:21.594 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:21.804 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone
+2026-04-05 17:17:21.804 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone {role=agent}
+2026-04-05 17:17:21.804 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:21.980 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry
+2026-04-05 17:17:21.980 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry {role=agent}
+2026-04-05 17:17:21.980 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:22.173 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen
+2026-04-05 17:17:22.174 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen {role=agent}
+2026-04-05 17:17:22.176 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:22.369 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par
+2026-04-05 17:17:22.370 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par {role=agent}
+2026-04-05 17:17:22.370 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:22.576 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain,
+2026-04-05 17:17:22.576 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, {role=agent}
+2026-04-05 17:17:22.576 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:22.809 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya
+2026-04-05 17:17:22.809 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya {role=agent}
+2026-04-05 17:17:22.809 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:23.222 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko
+2026-04-05 17:17:23.223 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko {role=agent}
+2026-04-05 17:17:23.223 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:23.626 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help
+2026-04-05 17:17:23.626 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help {role=agent}
+2026-04-05 17:17:23.626 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:23.830 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye?
+2026-04-05 17:17:23.830 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye? {role=agent}
+2026-04-05 17:17:23.830 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:23.922 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye?
+2026-04-05 17:17:23.923 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] Namaste! Main aapki KYC mein help karne ke liye yahan hoon. Aapka data RBI guidelines ke according 100% safe hai. Maine dekha ki aap Phone Entry screen par hain, kya aapko help chahiye? {role=agent}
+2026-04-05 17:17:23.923 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:29.887 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [user] ¿Y te
+2026-04-05 17:17:29.888 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [user] ¿Y te {role=user}
+2026-04-05 17:17:29.889 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:30.904 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [user] Ether country code भी डालना
+2026-04-05 17:17:30.905 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [user] Ether country code भी डालना {role=user}
+2026-04-05 17:17:30.905 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:33.957 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [user] Ether country code भी डालना पड़ेगा
+2026-04-05 17:17:33.958 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [user] Ether country code भी डालना पड़ेगा {role=user}
+2026-04-05 17:17:33.960 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:36.426 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [user] Ether country code भी डालना पड़ेगा
+2026-04-05 17:17:36.428 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [user] Ether country code भी डालना पड़ेगा {role=user}
+2026-04-05 17:17:36.428 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:37.783 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+2026-04-05 17:17:37.783 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊 {role=agent}
+2026-04-05 17:17:37.783 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:38.061 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User
+2026-04-05 17:17:38.061 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User {role=agent}
+2026-04-05 17:17:38.061 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:38.585 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+2026-04-05 17:17:38.585 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs: {role=agent}
+2026-04-05 17:17:38.585 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:39.109 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅
+2026-04-05 17:17:39.110 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ {role=agent}
+2026-04-05 17:17:39.110 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:39.378 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED:
+2026-04-05 17:17:39.378 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: {role=agent}
+2026-04-05 17:17:39.378 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:39.636 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+2026-04-05 17:17:39.636 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None {role=agent}
+2026-04-05 17:17:39.636 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:39.888 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌
+2026-04-05 17:17:39.889 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ {role=agent}
+2026-04-05 17:17:39.889 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:40.015 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY:
+2026-04-05 17:17:40.015 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: {role=agent}
+2026-04-05 17:17:40.016 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:40.018 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+2026-04-05 17:17:40.020 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number {role=agent}
+2026-04-05 17:17:40.023 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:40.196 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko
+2026-04-05 17:17:40.196 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko {role=agent}
+2026-04-05 17:17:40.196 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:40.471 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf
+2026-04-05 17:17:40.471 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf {role=agent}
+2026-04-05 17:17:40.471 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:40.707 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile
+2026-04-05 17:17:40.707 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile {role=agent}
+2026-04-05 17:17:40.707 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:41.066 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number
+2026-04-05 17:17:41.066 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number {role=agent}
+2026-04-05 17:17:41.066 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:41.261 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur
+2026-04-05 17:17:41.262 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur {role=agent}
+2026-04-05 17:17:41.264 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.695 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country
+2026-04-05 17:17:43.695 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country {role=agent}
+2026-04-05 17:17:43.695 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.887 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code
+2026-04-05 17:17:43.887 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code {role=agent}
+2026-04-05 17:17:43.888 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.893 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana
+2026-04-05 17:17:43.896 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana {role=agent}
+2026-04-05 17:17:43.896 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.900 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki
+2026-04-05 17:17:43.901 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki {role=agent}
+2026-04-05 17:17:43.903 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.908 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai.
+2026-04-05 17:17:43.910 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. {role=agent}
+2026-04-05 17:17:43.913 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.916 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya
+2026-04-05 17:17:43.916 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya {role=agent}
+2026-04-05 17:17:43.918 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.918 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko
+2026-04-05 17:17:43.918 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko {role=agent}
+2026-04-05 17:17:43.918 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.923 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone
+2026-04-05 17:17:43.923 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone {role=agent}
+2026-04-05 17:17:43.923 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:43.961 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number
+2026-04-05 17:17:43.961 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number {role=agent}
+2026-04-05 17:17:43.961 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:44.122 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur
+2026-04-05 17:17:44.122 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur {role=agent}
+2026-04-05 17:17:44.122 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:44.386 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country
+2026-04-05 17:17:44.386 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country {role=agent}
+2026-04-05 17:17:44.386 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:44.655 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code
+2026-04-05 17:17:44.655 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code {role=agent}
+2026-04-05 17:17:44.655 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:44.928 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne
+2026-04-05 17:17:44.928 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne {role=agent}
+2026-04-05 17:17:44.928 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:45.185 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein
+2026-04-05 17:17:45.185 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein {role=agent}
+2026-04-05 17:17:45.185 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:45.390 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi
+2026-04-05 17:17:45.390 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi {role=agent}
+2026-04-05 17:17:45.390 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:45.683 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi problem
+2026-04-05 17:17:45.683 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi problem {role=agent}
+2026-04-05 17:17:45.684 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:45.941 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi problem hai?
+2026-04-05 17:17:45.941 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi problem hai? {role=agent}
+2026-04-05 17:17:45.941 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)
+2026-04-05 17:17:46.036 24250-24250 KYCIS                   com.kycis.reactnative                D  VoiceRoomConnector: Transcription [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi problem hai?
+2026-04-05 17:17:46.037 24250-24250 VoiceDebug              com.kycis.reactnative                D  [transcript] [agent] 😊
+                                                                                                    
+                                                                                                    User Inputs:
+                                                                                                    ✅ FILLED: None
+                                                                                                    ❌ EMPTY: phone_number
+                                                                                                    
+                                                                                                    Aapko sirf mobile number aur country code bharana baaki hai. Kya aapko phone number aur country code bharne mein koi problem hai? {role=agent}
+2026-04-05 17:17:46.037 24250-24250 KYCIS                   com.kycis.reactnative                D  AgentEventDispatcher: Dispatching TRANSCRIPTION_RECEIVED to 1 listener(s)

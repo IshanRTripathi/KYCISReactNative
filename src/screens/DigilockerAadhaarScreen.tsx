@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 
 interface DigilockerAadhaarScreenProps {
   onBack: () => void;
@@ -29,6 +30,35 @@ export const DigilockerAadhaarScreen: React.FC<DigilockerAadhaarScreenProps> = (
 
   const isButtonEnabled =
     aadhaar1.length === 4 && aadhaar2.length === 4 && aadhaar3.length === 4;
+
+  useEffect(() => {
+    const fullAadhaar = aadhaar1 + aadhaar2 + aadhaar3;
+    if (fullAadhaar.length > 0) {
+      Kycis.reportComponentInput({
+        componentId: 'aadhaar_number',
+        hint: '****' + fullAadhaar.slice(-4),
+        screen: 'DIGILOCKER_AADHAAR',
+        componentType: 'text_input',
+      });
+    }
+  }, [aadhaar1, aadhaar2, aadhaar3]);
+
+  const handleNext = () => {
+    if (!isButtonEnabled) {
+      Kycis.trackValidationFailure({
+        failureReasonCode: 'incomplete_aadhaar',
+        componentId: 'aadhaar_number',
+        componentType: 'text_input',
+        businessStep: 'AADHAAR_VERIFICATION',
+      });
+    }
+    onNext();
+  };
+
+  const handleTryAnotherWay = () => {
+    Kycis.trackAnalytics('digilocker_fallback', { action: 'try_another_way' });
+    onTryAnotherWay();
+  };
 
   return (
     <View style={styles.container}>
@@ -118,7 +148,7 @@ export const DigilockerAadhaarScreen: React.FC<DigilockerAadhaarScreenProps> = (
                 styles.button,
                 !isButtonEnabled && styles.buttonDisabled,
               ]}
-              onPress={onNext}
+              onPress={handleNext}
               disabled={!isButtonEnabled}
             >
               <Text style={styles.buttonText}>Next</Text>
@@ -127,7 +157,7 @@ export const DigilockerAadhaarScreen: React.FC<DigilockerAadhaarScreenProps> = (
 
           <TouchableOpacity
             style={styles.tryAnotherWay}
-            onPress={onTryAnotherWay}
+            onPress={handleTryAnotherWay}
           >
             <Text style={styles.tryAnotherWayText}>Try another way</Text>
           </TouchableOpacity>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 
 interface UploadAadhaarScreenProps {
   isFront: boolean;
@@ -28,6 +29,29 @@ export const UploadAadhaarScreen: React.FC<UploadAadhaarScreenProps> = ({
   const stepText = isFront ? 'Upload Aadhaar Card(1/2)' : 'Upload Aadhaar Card(2/2)';
   const sideText = isFront ? 'Front side' : 'Back side';
   const buttonText = isFront ? 'Next' : 'Submit';
+
+  useEffect(() => {
+    if (isFileUploaded) {
+      Kycis.reportComponentInput({
+        componentId: isFront ? 'aadhaar_front_upload' : 'aadhaar_back_upload',
+        hint: 'file_uploaded',
+        screen: isFront ? 'UPLOAD_AADHAAR_FRONT' : 'UPLOAD_AADHAAR_BACK',
+        componentType: 'file_upload',
+      });
+    }
+  }, [isFileUploaded]);
+
+  const handleNext = () => {
+    if (!isFileUploaded) {
+      Kycis.trackValidationFailure({
+        failureReasonCode: 'document_not_uploaded',
+        componentId: isFront ? 'aadhaar_front_upload' : 'aadhaar_back_upload',
+        componentType: 'file_upload',
+        businessStep: 'AADHAAR_UPLOAD',
+      });
+    }
+    onNext();
+  };
 
   return (
     <View style={styles.container}>
@@ -100,7 +124,7 @@ export const UploadAadhaarScreen: React.FC<UploadAadhaarScreenProps> = ({
               styles.button,
               !isFileUploaded && styles.buttonDisabled,
             ]}
-            onPress={onNext}
+            onPress={handleNext}
             disabled={!isFileUploaded}
           >
             <Text style={styles.buttonText}>{buttonText}</Text>

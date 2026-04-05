@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 
 interface SignatureScreenProps {
   onBack: () => void;
@@ -18,6 +19,11 @@ export const SignatureScreen: React.FC<SignatureScreenProps> = ({
   onBack,
   onSubmit,
 }) => {
+  const handleSubmit = () => {
+    Kycis.trackAnalytics('kyc_flow_completed');
+    onSubmit();
+  };
+
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor={ThemeColors.lightBackground} />
@@ -40,7 +46,7 @@ export const SignatureScreen: React.FC<SignatureScreenProps> = ({
       </View>
 
       <View style={styles.footer}>
-        <TouchableOpacity style={styles.button} onPress={onSubmit}>
+        <TouchableOpacity style={styles.button} onPress={handleSubmit}>
           <Text style={styles.buttonText}>Submit</Text>
         </TouchableOpacity>
       </View>

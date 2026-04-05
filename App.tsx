@@ -1,18 +1,74 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as Screens from './src/screens';
 import { RootStackParamList } from './src/navigation/types';
 import { ThemeColors } from './src/theme';
+import * as Kycis from './src/kycis';
+import { SCREEN_SCHEMAS } from './src/kycis/schemas';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
+const stepMap: Record<string, string> = {
+  Home: 'HOME',
+  PhoneEntry: 'PHONE_ENTRY',
+  PhoneOtp: 'PHONE_OTP',
+  EmailEntry: 'EMAIL_ENTRY',
+  EmailOtp: 'EMAIL_OTP',
+  PanDetails: 'PAN_DETAILS',
+  PersonalDetails: 'PERSONAL_DETAILS',
+  VerifyDocuments: 'VERIFY_DOCUMENTS',
+  DigilockerAadhaar: 'DIGILOCKER_AADHAAR',
+  UploadAadhaarFront: 'UPLOAD_AADHAAR_FRONT',
+  UploadAadhaarBack: 'UPLOAD_AADHAAR_BACK',
+  SelfieCapture: 'SELFIE_CAPTURE',
+  Signature: 'SIGNATURE',
+};
+
 export default function App() {
+  const initialized = useRef(false);
+  const navigationRef = useRef(null);
+
+  useEffect(() => {
+    if (initialized.current) return;
+    initialized.current = true;
+
+    // Schema registration - temporarily disabled due to native bridge issue
+    // Kycis.registerScreenSchemas(SCREEN_SCHEMAS).catch((err) => {
+    //   console.error('KYCIS schema registration failed:', err);
+    // });
+
+    Kycis.initialize({
+      apiKey: 'your-api-key',
+      userId: 'demo-user',
+      policy: {
+        backendBaseUrl: 'http://10.0.2.2:8000/v1',
+        triggerStartMode: 'IMMEDIATE',
+        kycStepStrategy: 'HINT_THEN_INFER',
+        passiveEvalEnabled: false,
+        passiveEvalIntervalSeconds: 10,
+      },
+    }).catch((err) => {
+      console.error('KYCIS init failed:', err);
+    });
+  }, []);
+
+  const trackRoute = () => {
+    const route = navigationRef.current?.getCurrentRoute();
+    if (route && stepMap[route.name]) {
+      Kycis.setKycStep(stepMap[route.name]);
+    }
+  };
+
   return (
     <>
       <StatusBar style="dark" />
-      <NavigationContainer>
+      <NavigationContainer
+        ref={navigationRef}
+        onReady={trackRoute}
+        onStateChange={trackRoute}
+      >
         <Stack.Navigator
           initialRouteName="Home"
           screenOptions={{
@@ -143,6 +199,10 @@ export default function App() {
           </Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
+      <Kycis.FloatingAssistantButton
+        position="bottom-end"
+        assistantName="KYC Assistant"
+      />
     </>
   );
 }

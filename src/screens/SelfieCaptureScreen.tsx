@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { ThemeColors } from '../theme';
+import * as Kycis from '../kycis';
 
 interface SelfieCaptureScreenProps {
   onCaptured: () => void;
@@ -19,6 +20,8 @@ export const SelfieCaptureScreen: React.FC<SelfieCaptureScreenProps> = ({
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
+    Kycis.trackAnalytics('selfie_capture_started');
+
     const timer1 = setTimeout(() => {
       setProgress(0.3);
     }, 1000);
@@ -34,6 +37,7 @@ export const SelfieCaptureScreen: React.FC<SelfieCaptureScreenProps> = ({
     }, 3000);
 
     const timer4 = setTimeout(() => {
+      Kycis.trackAnalytics('selfie_capture_completed');
       onCaptured();
     }, 3500);
 
