@@ -26,12 +26,14 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+# local env files
+.env
+.env*
+.env*.local
+
 # macOS
 .DS_Store
 *.pem
-
-# local env files
-.env*.local
 
 # typescript
 *.tsbuildinfo
@@ -40,12 +42,10 @@ yarn-error.*
 /ios
 /android
 
-# OSX
-.DS_Store
-
 # Android/IntelliJ
 build/
 .idea
+.gradle/
 .grade
 local.properties
 *.iml
@@ -54,3 +54,4 @@ local.properties
 
 # Bundle artifacts
 *.jsbundle
+

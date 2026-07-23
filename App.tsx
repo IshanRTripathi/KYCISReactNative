@@ -39,11 +39,18 @@ export default function App() {
     //   console.error('KYCIS schema registration failed:', err);
     // });
 
+    // Prod: api.kycis.zynnex.in (Cloudflare → Cloud Run). Local emulator: http://10.0.2.2:8000/v1
+    const backendBaseUrl =
+      process.env.EXPO_PUBLIC_KYCIS_BACKEND_URL ??
+      'https://api.kycis.zynnex.in/v1';
+    const apiKey =
+      process.env.EXPO_PUBLIC_KYCIS_API_KEY ?? 'your-api-key';
+
     Kycis.initialize({
-      apiKey: 'your-api-key',
+      apiKey,
       userId: 'demo-user',
       policy: {
-        backendBaseUrl: 'http://10.0.2.2:8000/v1',
+        backendBaseUrl,
         triggerStartMode: 'IMMEDIATE',
         kycStepStrategy: 'HINT_THEN_INFER',
         passiveEvalEnabled: false,
