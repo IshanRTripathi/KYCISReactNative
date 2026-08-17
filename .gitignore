@@ -55,3 +55,8 @@ local.properties
 # Bundle artifacts
 *.jsbundle
 
+
+# Claude Code skills live in parent KYCIS_ALL (directory junctions here)
+.claude/skills/
+.agents/skills/
+.claude/settings.local.json
